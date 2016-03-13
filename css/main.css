@@ -1,0 +1,148 @@
+/* BODY STYLES */
+
+body {
+	margin: 0;
+	font-family: 'Open Sans', sans-serif;
+	background-color: #ffffff;
+}
+
+/* NAVIGATION */
+
+i {
+	float: left;
+	color: #FFFFFF;
+	padding-top: 18px;
+	padding-left: 50px;
+}
+
+nav {
+	background-color: #ff9933;
+	height: 80px;
+	border-bottom: 5px solid #b35900;
+}
+
+nav > a {
+	font-family: 'Raleway', sans-serif;
+	font-weight: 500;
+	color: #ffffff;
+	float: left;
+	padding-top: 25px;
+	padding-left: 13px;
+	font-size: 25px;
+	text-align: left;
+}
+
+nav > a > span {
+	font-family: 'Raleway', sans-serif;
+	font-weight: 100;
+}
+
+#trademark {
+	font-size: 12px;
+	position: relative;
+	top: -10px;
+}
+
+nav a {
+	color: #FFFFFF;
+	text-decoration: none;
+	font-weight: bold;
+}
+
+ul {
+	float: right;
+	font-size: 12px;
+	padding-right: 50px;
+	padding-top: 23px;
+}
+
+ul li {
+	display: inline-block;
+	padding-right: 15px;
+}
+
+ul li a {
+	text-decoration: none;
+	color: #FFFFFF;
+	letter-spacing: .1em;
+	font-weight: 100;
+}
+
+/* HEADER */
+
+#wrapper2 input {
+	margin-right: 120px;
+	width: 200px;
+	height: 40px;
+	border: none;
+	background-color: #FEFEFA;
+}
+
+/* MAIN SECTION */
+
+#wrapper1 {
+	float: left;
+}
+
+#wrapper2 {
+	float: right;
+}
+
+section p {
+	font-family: 'Raleway', sans-serif;
+	font-weight: 100;
+	color: #ff9933;
+	font-size: 34px;
+	position: relative;
+	top: 120px;
+	right: -20px;
+}
+
+section p .highlight {
+	font-family: 'Raleway', sans-serif;
+	font-weight: 500;
+	color: lightblue;
+}
+
+section p .orange {
+	font-family: 'Raleway', sans-serif;
+	font-weight: 500;
+}
+
+section #button1 {
+	position: relative;
+	top: 160px;
+	right: -40px;
+	background-color: #ff9933;
+	border: none;
+	width: 180px;
+	height: 60px;
+}
+
+section #button2 {
+	position: relative;
+	top: 160px;
+	right: -100px;
+	background-color: lightblue;
+	border: none;
+	width: 180px;
+	height: 60px;
+}
+
+section h3 {
+	font-family: 'Raleway', sans-serif;
+	font-weight: 100;
+	color: #ffffff;
+	text-transform: uppercase;
+}
+
+/* FOOTER */
+
+footer {
+	background-color: lightblue;
+    position:absolute;
+    bottom:0;
+    width:100%;
+    height:60px;  
+}
+
